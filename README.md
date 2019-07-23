@@ -1,0 +1,2 @@
+# LookAndSay
+LookAndSay sequence
