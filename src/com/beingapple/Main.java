@@ -26,8 +26,11 @@ public class Main {
 	    LookAndSay lookAndSay = new LookAndSay(startNumber, lineNumber);
         Iterator<Integer> result = lookAndSay.makeLookAndSay();
 
+
+        StringBuffer buffer = new StringBuffer();
         while(result.hasNext()){
-            System.out.print(result.next());
+            buffer.append(result.next());
         }
+        System.out.println(buffer);
     }
 }
